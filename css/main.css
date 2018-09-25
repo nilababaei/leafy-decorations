@@ -7,6 +7,11 @@ html {
   background-repeat: repeat;
   background-color: #588477;
   color: #fff;
+  border-color: #2d5a4d;
+  border-style: solid;
+  border-width: 3px;
+  border-left: 0;
+  border-right: 0;
 }
 
 .logo {
@@ -24,19 +29,31 @@ html {
   border-color: #2d5a4d;
   border-style: solid;
   border-width: 3px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .nav a:hover {
-
+  background-image: url("../images/leaf-icon.svg");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  color: #2d5a4d;
+  background-size: 60%;
+  background-position: right;
 }
 
 .banner {
-
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  background-size:
 }
 
 .banner-content {
-
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-size: 64px;
+  padding-left: 15px;
+  padding-top: 75px;
 }
 
 @media only screen and (min-width: 60em) {
