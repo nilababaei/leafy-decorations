@@ -38,18 +38,25 @@ html {
   background-repeat: no-repeat;
   color: #2d5a4d;
   background-size: 60%;
-  background-position: right;
+  background-position: top right;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  background-image:
+    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)),
+    url("../images/banner.jpg")
+    ;
   background-repeat: no-repeat;
   color: #fff;
-  background-size:
+  background-size: cover;
+  background-position: top center;
+  padding-top: 200px;
+  border-bottom: 3px solid #145b1d;
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
+  background-position-x: 15px;
   background-repeat: no-repeat;
   background-size: 64px;
   padding-left: 15px;
