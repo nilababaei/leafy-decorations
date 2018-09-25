@@ -6,6 +6,7 @@ html {
   background-image: url("../images/leaf-bg.svg");
   background-repeat: repeat;
   background-color: #588477;
+  background-size: 64px;
   color: #fff;
   border-color: #2d5a4d;
   border-style: solid;
@@ -43,24 +44,23 @@ html {
 
 .banner {
   background-image:
-    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)),
-    url("../images/banner.jpg")
-    ;
+    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 70%),
+    url("../images/banner.jpg");
   background-repeat: no-repeat;
   color: #fff;
   background-size: cover;
-  background-position: top center;
-  padding-top: 200px;
+  background-position: bottom center;
+  padding-top: 180px;
   border-bottom: 3px solid #145b1d;
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
-  background-position-x: 15px;
+  background-position: .75em 0;
   background-repeat: no-repeat;
-  background-size: 64px;
-  padding-left: 15px;
-  padding-top: 75px;
+  background-size: 100px;
+  padding-left: .75em;
+  padding-top: 120px;
 }
 
 @media only screen and (min-width: 60em) {
